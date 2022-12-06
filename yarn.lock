@@ -667,6 +667,15 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
+aplayer@^1.10.1:
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/aplayer/-/aplayer-1.10.1.tgz#318289206107452cc39e8f552fa6cc6cb459a90c"
+  integrity sha512-HAfyxgCUTLAqtYlxzzK9Fyqg6y+kZ9CqT1WfeWE8FSzwspT6oBqWOZHANPHF3RGTtC33IsyEgrfthPDzU5r9kQ==
+  dependencies:
+    balloon-css "^0.5.0"
+    promise-polyfill "7.1.0"
+    smoothscroll "0.4.0"
+
 aproba@^1.0.3:
   version "1.2.0"
   resolved "http://registry.npm.taobao.org/aproba/download/aproba-1.2.0.tgz#6802e6264efd18c790a1b0d517f0f2627bf2c94a"
@@ -1197,6 +1206,11 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/balanced-match/download/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
+
+balloon-css@^0.5.0:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/balloon-css/-/balloon-css-0.5.2.tgz#9e2163565a136c9d4aa20e8400772ce3b738d3ff"
+  integrity sha512-zheJpzwyNrG4t39vusA67v3BYg1HTVXOF8cErPEHzWK88PEOFwgo6Ea9VHOgOWNMgeuOtFVtB73NE2NWl9uDyQ==
 
 base@^0.11.1:
   version "0.11.2"
@@ -1992,6 +2006,11 @@ find-up@^3.0.0:
   integrity sha1-SRafHXmTQwZG2mHsxa41XCHJe3M=
   dependencies:
     locate-path "^3.0.0"
+
+findit@>=0.0.2:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/findit/-/findit-2.0.0.tgz#6509f0126af4c178551cfa99394e032e13a4d56e"
+  integrity sha512-ENZS237/Hr8bjczn5eKuBohLgaD0JyUd0arxretR1f9RO46vZHA1b2y0VorgGV3WaOT3c+78P8h7v4JGJ1i/rg==
 
 flatten@^1.0.2:
   version "1.0.2"
@@ -3816,6 +3835,11 @@ promise-ftp@^1.3.5:
     bluebird "2.x"
     promise-ftp-common "^1.1.5"
 
+promise-polyfill@7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/promise-polyfill/-/promise-polyfill-7.1.0.tgz#4d749485b44577c14137591c6f36e5d7e2dd3378"
+  integrity sha512-P6NJ2wU/8fac44ENORsuqT8TiolKGB2u0fEClPtXezn7w5cmLIjM/7mhPlTebke2EPr6tmqZbXvnX0TxwykGrg==
+
 pump@^3.0.0:
   version "3.0.0"
   resolved "http://registry.npm.taobao.org/pump/download/pump-3.0.0.tgz#b4a2116815bde2f4e1ea602354e8c75565107a64"
@@ -3829,10 +3853,10 @@ q@^1.1.2:
   resolved "http://registry.npm.taobao.org/q/download/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
-qs@^6.6.0:
-  version "6.6.0"
-  resolved "http://registry.npm.taobao.org/qs/download/qs-6.6.0.tgz#a99c0f69a8d26bf7ef012f871cdabb0aee4424c2"
-  integrity sha1-qZwPaajSa/fvAS+HHNq7Cu5EJMI=
+qs@^6.8.3:
+  version "6.8.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.8.3.tgz#c1909067d1f6c2f62f9bde1c44b44c72d2fc7a41"
+  integrity sha512-lvnoy9TgoYNQLYY6Ba4ptroTR9ptMkMQuXLxH4oppEQtglfAop+ZaC0dtAgY75rarH73CPu1eq3XrtzI/zZYmA==
 
 rc@^1.2.7:
   version "1.2.8"
@@ -4146,6 +4170,11 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
+smoothscroll@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/smoothscroll/-/smoothscroll-0.4.0.tgz#40e507b46461408ba1b787d0081e1e883c4124a5"
+  integrity sha512-sggQ3U2Un38b3+q/j1P4Y4fCboCtoUIaBYoge+Lb6Xg1H8RTIif/hugVr+ErMtIDpvBbhQfTjtiTeYAfbw1ZGQ==
+
 snapdragon-node@^2.0.1:
   version "2.1.1"
   resolved "http://registry.npm.taobao.org/snapdragon-node/download/snapdragon-node-2.1.1.tgz#6c175f86ff14bdb0724563e8f3c1b021a286853b"
@@ -4201,6 +4230,13 @@ source-map@^0.6.1:
   version "0.6.1"
   resolved "http://registry.npm.taobao.org/source-map/download/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha1-dHIq8y6WFOnCh6jQu95IteLxomM=
+
+source@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/source/-/source-0.0.3.tgz#040f00a0a3e2638147c01d3f28b7feb126d2eae9"
+  integrity sha512-R3sMIbB31pFhS5qmiPfY6RYae6DQM1y4rdFyvB4dlMc5+YJ9ZQos+GTYNmV1hyozgUUHz4aQIIm+nZM9oKMVNQ==
+  dependencies:
+    findit ">=0.0.2"
 
 split-string@^3.0.1, split-string@^3.0.2:
   version "3.1.0"
